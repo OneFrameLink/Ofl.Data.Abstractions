@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Description>Abstractions used by the Ofl.Data project.</Description>
+    <AssemblyName>Ofl.Data.Abstractions</AssemblyName>
+    <PackageId>Ofl.Data.Abstractions</PackageId>
+    <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Data.Abstractions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Data.Abstractions.git</RepositoryUrl>
+    <Version>1.0.0</Version>
+    <RootNamespace>Ofl.Data</RootNamespace>
+    <PackageTags>sql-server adonet entity-framework</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.3.1" />
+  </ItemGroup>
+</Project>
